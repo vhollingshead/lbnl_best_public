@@ -8,15 +8,13 @@ LBNL's Energy Technologies Area is currently supporting Indonesia's energy goals
 
 ## Table of Contents
 
-- [📂 Project Structure](#project-structure)
-- [✨ Features](#features)
-- [⚙️ Installation](#installation)
-- [▶️ Usage](#usage)
-- [🔧 Terms & Conditions](#terms--conditions)
-- [🧪 FAQ](#faq)
-  - [☁️ How do I compile main.py into an executable on Mac and Windows?](#how-do-i-compile-mainpy-into-an-executable-on-mac-and-windows)
-  - [☁️ I want to change the backend calculations. How do I change the ui?](#i-want-to-change-the-backend-calculations-how-do-i-change-the-ui)
-  - [☁️ Why do Mac and Windows versions have a separate set of folders?](#why-do-mac-and-windows-versions-have-a-separate-set-of-folders)
+- [Project Structure](#project-structure)
+- [Features](#features)
+- [Installation & Usage](#installation)
+- [Terms & Conditions](#terms--conditions)
+- [FAQ](#faq)
+  - [How do I compile main.py into an executable on Mac and Windows? (This will include compiling the icon)](#how-do-i-compile-mainpy-into-an-executable-on-mac-and-windows)
+  - [Why do Mac and Windows versions have a separate set of folders?](#why-do-mac-and-windows-versions-have-a-separate-set-of-folders)
 
 ---
 
@@ -65,7 +63,7 @@ LBNL's Energy Technologies Area is currently supporting Indonesia's energy goals
 
 ---
 
-## Installation
+## Installation & Usage
 
 ### Setup
 ```bash
@@ -77,7 +75,7 @@ source pyqt6-env/bin/activate
 pip install -r requirements.txt
 ```
 
-## Usage
+### Usage
 ```bash
 python main.py
 ```
