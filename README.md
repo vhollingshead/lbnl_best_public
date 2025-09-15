@@ -8,15 +8,15 @@ LBNL's Energy Technologies Area is currently supporting Indonesia's energy goals
 
 ## Table of Contents
 
-- [📂 Project Structure](##-Project-Structure)
-- [✨ Features](##-Features)
-- [⚙️ Installation](#️-installation)
-- [▶️ Usage](#️-usage)
-- [🔧 Terms & Conditions](#-termsandconditions)
-- [🧪 FAQ](#-FAQ)
-  - [☁️ How do I compile main.py into an executable on Mac and Windows?](#-faq1)
-  - [☁️ I want to change the backend calculations. How do I change the UI?](#-faq2)
-  - [☁️ Why do Mac and Windows versions have a separate set of folders?](#-faq3)
+- [📂 Project Structure](#project-structure)
+- [✨ Features](#features)
+- [⚙️ Installation](#installation)
+- [▶️ Usage](#usage)
+- [🔧 Terms & Conditions](#terms--conditions)
+- [🧪 FAQ](#faq)
+  - [☁️ How do I compile main.py into an executable on Mac and Windows?](#how-do-i-compile-mainpy-into-an-executable-on-mac-and-windows)
+  - [☁️ I want to change the backend calculations. How do I change the ui?](#i-want-to-change-the-backend-calculations-how-do-i-change-the-ui)
+  - [☁️ Why do Mac and Windows versions have a separate set of folders?](#why-do-mac-and-windows-versions-have-a-separate-set-of-folders)
 
 ---
 
