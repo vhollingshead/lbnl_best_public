@@ -86,8 +86,6 @@ python main.py
 
 ### How do I compile main.py into an executable on Mac and Windows?
 
-### I want to change the backend calculations. How do I change the UI?
-
 ### Why do Mac and Windows versions have a separate set of folders?
 
 
