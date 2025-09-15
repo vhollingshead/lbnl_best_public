@@ -8,9 +8,8 @@ LBNL's Energy Technologies Area is currently supporting Indonesia's energy goals
 
 ## Table of Contents
 
-- [📂 Project Structure](#-project-structure)
-- [📖 Folder & File Descriptions](#-folder--file-descriptions)
-- [✨ Features](#-features)
+- [📂 Project Structure](##-Project-Structure)
+- [✨ Features](##-Features)
 - [⚙️ Installation](#️-installation)
 - [▶️ Usage](#️-usage)
 - [🔧 Terms & Conditions](#-termsandconditions)
@@ -25,61 +24,32 @@ LBNL's Energy Technologies Area is currently supporting Indonesia's energy goals
 
 ```text
 00_BEST/
-├── images/
+├── images/ # Stores icons, logos, and other image assets used in the application
 │   ├── best_app_icon.icns
 │   ├── best_app_icon.ico
 │   ├── LandingPage_Abstract.png
 │   ├── SidePage_Abstract.png
-├── pages/
+├── pages/ # Contains Python files for different pages in the application
 │   ├── Page0_LandingPage.py
 │   ├── Page1_AssessmentChoice.py
 │   └── Page2_CostandEmission.py
 │   └── ...
-├── ui_files_latest/
+├── ui_files_latest/ # Holds XML files for UI design
 │   ├── Page0_LandingPage_qwidget.ui
 │   ├── Page1_AssessmentChoice_qwidget.ui
 │   └── Page2_CostandEmission_qwidget.ui
 │   └── ...
-├── utils/
+├── utils/ # Helper functions and utility scripts shared across the app
 │   ├── calculations.py
 │   ├── defaults.py
 │   └── pdf_output.py
 │   └── save_progress.py
 │   └── warning_messages.py
-├── main.py
-├── requirements.txt
+├── main.py # The main entry point of the application
+├── requirements.txt # Libraries and packages required to run main.py
 ├── resources_rc.py
 └── resources.qrc
 ```
-
-## Folder & File Descriptions
-
-### images/
-- Stores icons, logos, and other image assets used in the application.
-
-### pages/
-- Contains Python files for different pages in the application:
-  - **Page0_LandingPage.py** → Landing page logic/UI  
-  - **Page1_AssessmentChoice.py** → Assessment Choice page logic/UI  
-  - **Page2_CostandEmission.py** → Cost and Emission page logic/UI  
-
-### ui_files_latest/
-- Holds XML files for UI design
-
-### utils/
-- Helper functions and utility scripts shared across the app.
-
-### main.py
-- The main entry point of the application.
-
-### requirements.txt
-- Libraries and packages required to run main.py
-
-### resources_rc.py
-- Compiled Qt resources (auto-generated from the `.qrc` file).
-
-### resources.qrc
-- Qt resource collection file that defines images, icons, and other resources.
 
 ---
 
@@ -113,5 +83,13 @@ python main.py
 ```
 
 ## Terms & Conditions
+
+## FAQ
+
+### How do I compile main.py into an executable on Mac and Windows?
+
+### I want to change the backend calculations. How do I change the UI?
+
+### Why do Mac and Windows versions have a separate set of folders?
 
 
