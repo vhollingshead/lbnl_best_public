@@ -90,8 +90,8 @@ For the best experience, use this application on laptops with screens larger tha
 This application uses design elements licensed under Canva’s Free Content License and Adobe Stock’s Standard License. End users are not permitted to extract, reuse, modify, redistribute, or make separate use of visual content embedded in the app. By using this application, you agree not to attempt to access or repurpose any licensed media included herein.
 
 Full license terms:
-    '<a href="https://www.canva.com/policies/content-license-agreement/">Canva License</a> ,
-    '<a href="https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/PSLT-Stock-WW-2024v1.pdf">Adobe Stock License</a>'
+    <a href="https://www.canva.com/policies/content-license-agreement/">Canva License</a> ,
+    <a href="https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/PSLT-Stock-WW-2024v1.pdf">Adobe Stock License</a>
 
 ## FAQ
 
