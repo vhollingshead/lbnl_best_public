@@ -95,7 +95,7 @@ Enter the following in your terminal or IDE after entering the directory with yo
 
 ```bash
 
-pyinstaller --noconfirm --windowed --onefile --icon="pyqt/00_prototype_latest/images/Best_App_Logo.ico" main.py --add-data "images;images" --add-data "utils;utils" --add-data "pages;pages" --collect-submodules PyQt6
+pyinstaller --noconfirm --windowed --onefile --icon="images/Best_App_Logo.ico" main.py --add-data "images;images" --add-data "utils;utils" --add-data "pages;pages" --collect-submodules PyQt6
 
 ```
 
@@ -112,7 +112,7 @@ Remove-Item -Recurse -Force build, dist, main.spec
 Enter the following in your terminal or IDE after entering the directory with your main.py file:
 
 ```bash
-pyinstaller --noconfirm --windowed --onefile --icon="pyqt/00_prototype_latest/images/Best_App_Logo.icns” main.py \
+pyinstaller --noconfirm --windowed --onefile --icon="images/Best_App_Logo.icns” main.py \
   --add-data "images:images" \
   --add-data "utils:utils" \
   --add-data "pages:pages" \
