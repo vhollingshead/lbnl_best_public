@@ -135,7 +135,6 @@ rm -rf build/ dist/ main.spec
 1. Open Qt Designer
 
 ```bash
-# Launch in terminal
 
 pyqt6-tools designer 
 
