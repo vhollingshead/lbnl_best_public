@@ -81,7 +81,7 @@ python main.py
 ```
 ### Recommended System Setup
 
-This application is optimized for laptops with screen sizes larger than 12 inches, where the measurement refers to the diagonal length of the display.
+This application is optimized for screens with a diagonal length greater than 11 inches. 
 
 ## Terms & Conditions
 
