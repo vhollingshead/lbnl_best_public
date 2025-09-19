@@ -132,7 +132,25 @@ rm -rf build/ dist/ main.spec
 
 ### How do I make changes to the UI?
 
+1. Open Qt Designer
 
+```bash
+# Launch in terminal
+
+pyqt6-tools designer 
+
+```
+2. Open .ui file
+3. Make edits using Qt Designer interface
+4. Save .ui file
+5. Convert .ui to .py
+
+```bash
+
+pyuic6 0_main.ui -o 0_main_ui.py 
+
+```
+5. You're done!
 
 ### Why do Mac and Windows versions have a separate set of folders?
 
