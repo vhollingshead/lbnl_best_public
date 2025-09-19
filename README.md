@@ -82,7 +82,7 @@ python main.py
 
 ### Recommended System Setup
 
-This application is optimized for devices with a diagonal length greater than 11 inches. 
+For the best experience, use this application on laptops with screens larger than 11 inches (measured diagonally).
 
 ## Terms & Conditions
 
