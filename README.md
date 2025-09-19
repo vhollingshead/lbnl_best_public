@@ -69,7 +69,7 @@ LBNL's Energy Technologies Area is currently supporting Indonesia's energy goals
 ### Setup
 ```bash
 git clone https://github.com/vhollingshead/lbnl_best_public.git
-cd your-repo
+cd 00_BEST
 
 python -m venv pyqt6-env
 source pyqt6-env/bin/activate
