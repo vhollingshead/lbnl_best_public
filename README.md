@@ -94,24 +94,8 @@ Enter the following in your terminal or IDE after entering the directory with yo
 
 ```bash
 
-pyinstaller --noconfirm --windowed --onefile main.py
---add-data "images;images"
---add-data "utils;utils"
---add-data "pages;pages"
---collect-submodules PyQt6
+pyinstaller --noconfirm --windowed --onefile --icon="pyqt/00_prototype_latest/images/best_app_icon.ico" main.py --add-data "images;images" --add-data "utils;utils" --add-data "pages;pages" --collect-submodules PyQt6
 
-
-
-
-
-
-
-
-pyinstaller --noconfirm --windowed --onefile --icon="pyqt/00_prototype_latest/images/best_app_icon.ico" main.py ^
-  --add-data "images;images" ^
-  --add-data "utils;utils" ^
-  --add-data "pages;pages" ^
-  --collect-submodules PyQt6
 ```
 
 #### Mac
