@@ -79,9 +79,10 @@ pip install -r requirements.txt
 ```bash
 python main.py
 ```
+
 ### Recommended System Setup
 
-This application is optimized for screens with a diagonal length greater than 11 inches. 
+This application is optimized for devices with a diagonal length greater than 11 inches. 
 
 ## Terms & Conditions
 
@@ -94,20 +95,41 @@ Enter the following in your terminal or IDE after entering the directory with yo
 
 ```bash
 
-pyinstaller --noconfirm --windowed --onefile --icon="pyqt/00_prototype_latest/images/best_app_icon.ico" main.py --add-data "images;images" --add-data "utils;utils" --add-data "pages;pages" --collect-submodules PyQt6
+pyinstaller --noconfirm --windowed --onefile --icon="pyqt/00_prototype_latest/images/Best_App_Logo.ico" main.py --add-data "images;images" --add-data "utils;utils" --add-data "pages;pages" --collect-submodules PyQt6
 
 ```
+
+To delete the newly compiled Windows app:
+
+```bash
+
+Remove-Item -Recurse -Force build, dist, main.spec
+
+```
+
 
 #### Mac
 Enter the following in your terminal or IDE after entering the directory with your main.py file:
 
 ```bash
-pyinstaller --noconfirm --windowed --onefile --icon="pyqt/00_prototype_latest/images/best_app_icon.icns” main.py \
+pyinstaller --noconfirm --windowed --onefile --icon="pyqt/00_prototype_latest/images/Best_App_Logo.icns” main.py \
   --add-data "images:images" \
   --add-data "utils:utils" \
   --add-data "pages:pages" \
   --collect-submodules PyQt6
 ```
+
+To delete the newly compiled Mac app:
+
+```bash
+
+rm -rf build/ dist/ main.spec
+
+```
+
+### How do I make changes to the UI?
+
+
 
 ### Why do Mac and Windows versions have a separate set of folders?
 
