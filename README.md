@@ -15,6 +15,7 @@ LBNL's Energy Technologies Area is currently supporting Indonesia's energy goals
 - [Terms & Conditions](#terms--conditions)
 - [FAQ](#faq)
   - [How do I compile main.py into an executable on Mac and Windows? (This will include compiling the icon)](#how-do-i-compile-mainpy-into-an-executable-on-mac-and-windows)
+  - [How do I make changes to the UI?](#how-do-i-make-changes-to-the-ui)
   - [Why do Mac and Windows versions have a separate set of folders?](#why-do-mac-and-windows-versions-have-a-separate-set-of-folders)
 
 ---
