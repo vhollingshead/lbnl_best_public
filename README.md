@@ -13,7 +13,7 @@ LBNL's Energy Technologies Area is currently supporting Indonesia's energy goals
 - [Features](#features)
 - [Installation & Usage](#installation)
 - [Terms & Conditions](#terms--conditions)
-- [FAQ](#faq)
+- [Application Maintenance](#application-maintenance)
   - [How do I compile main.py into an executable on Mac and Windows? (This will include compiling the icon)](#how-do-i-compile-mainpy-into-an-executable-on-mac-and-windows)
   - [How do I make changes to the UI?](#how-do-i-make-changes-to-the-ui)
   - [Why do Mac and Windows versions have a separate set of folders?](#why-do-mac-and-windows-versions-have-a-separate-set-of-folders)
@@ -94,7 +94,7 @@ Full license terms:
     <a href="https://www.canva.com/policies/content-license-agreement/">Canva License</a> ,
     <a href="https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/PSLT-Stock-WW-2024v1.pdf">Adobe Stock License</a>
 
-## FAQ
+## Application Maintenance
 
 ### How do I compile main.py into an executable on Mac and Windows?
 
