@@ -67,7 +67,7 @@ LBNL's Energy Technologies Area is currently supporting Indonesia's energy goals
 
 ### Setup
 ```bash
-git clone https://github.com/your-username/your-repo.git
+git clone https://github.com/vhollingshead/lbnl_best_public.git
 cd your-repo
 
 python -m venv pyqt6-env
@@ -79,6 +79,9 @@ pip install -r requirements.txt
 ```bash
 python main.py
 ```
+### Recommended System Setup
+
+This application is optimized for laptops with screen sizes larger than 12 inches, where the measurement refers to the diagonal length of the display.
 
 ## Terms & Conditions
 
@@ -86,6 +89,30 @@ python main.py
 
 ### How do I compile main.py into an executable on Mac and Windows?
 
+#### Windows
+Enter the following in your terminal or IDE after entering the directory with your main.py file:
+
+```bash
+pyinstaller --noconfirm --windowed --onefile --icon="pyqt/00_prototype_latest/images/best_app_icon.ico" main.py ^
+  --add-data "images;images" ^
+  --add-data "utils;utils" ^
+  --add-data "pages;pages" ^
+  --collect-submodules PyQt6
+```
+
+#### Mac
+Enter the following in your terminal or IDE after entering the directory with your main.py file:
+
+```bash
+pyinstaller --noconfirm --windowed --onefile --icon="pyqt/00_prototype_latest/images/best_app_icon.icns” main.py \
+  --add-data "images:images" \
+  --add-data "utils:utils" \
+  --add-data "pages:pages" \
+  --collect-submodules PyQt6
+```
+
 ### Why do Mac and Windows versions have a separate set of folders?
+
+The Mac and Windows applications maintain distinct sets of folders due to differences in how their respective user interfaces are rendered. Consequently, the Windows version requires manual adjustments to ensure the UI is properly aligned and consistent.
 
 
