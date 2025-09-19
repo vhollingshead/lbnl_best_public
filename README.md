@@ -27,8 +27,8 @@ LBNL's Energy Technologies Area is currently supporting Indonesia's energy goals
 ├── images/ # Stores icons, logos, and other image assets used in the application
 │   ├── best_app_icon.icns
 │   ├── best_app_icon.ico
-│   ├── LandingPage_Abstract.png
-│   ├── SidePage_Abstract.png
+│   ├── BEST_landing_abstract.png.png
+│   ├── BEST_side_abstract.png.png
 ├── pages/ # Contains Python files for different pages in the application
 │   ├── Page0_LandingPage.py
 │   ├── Page1_AssessmentChoice.py
