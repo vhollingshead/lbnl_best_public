@@ -73,8 +73,14 @@ LBNL's Energy Technologies Area is currently supporting Indonesia's energy goals
 git clone https://github.com/vhollingshead/lbnl_best_public.git
 cd 00_BEST
 
+# Mac virtual environment setup
 python -m venv pyqt6-env
 source pyqt6-env/bin/activate
+pip install -r requirements.txt
+
+# Windows virtual environment setup
+python -m venv pyqt6-env
+.\pyqt6-env\Scripts\Activate.ps1
 pip install -r requirements.txt
 ```
 
