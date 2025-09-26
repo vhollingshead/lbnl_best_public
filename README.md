@@ -26,10 +26,10 @@ LBNL's Energy Technologies Area is currently supporting Indonesia's energy goals
 ```text
 00_BEST/
 ├── images/ # Stores icons, logos, and other image assets used in the application
-│   ├── best_app_icon.icns
-│   ├── best_app_icon.ico
-│   ├── BEST_landing_abstract.png.png
-│   ├── BEST_side_abstract.png.png
+│   ├── BEST_App_Icon.icns
+│   ├── BEST_App_Icon.ico
+│   ├── BEST_landing_abstract.png
+│   ├── BEST_side_abstract.png
 ├── pages/ # Contains Python files for different pages in the application
 │   ├── Page0_LandingPage.py
 │   ├── Page1_AssessmentChoice.py
@@ -110,7 +110,7 @@ Enter the following in your terminal or IDE after entering the directory with yo
 
 ```bash
 
-pyinstaller --noconfirm --windowed --onefile --icon="images/Best_App_Logo.ico" main.py --add-data "images;images" --add-data "utils;utils" --add-data "pages;pages" --collect-submodules PyQt6
+pyinstaller --noconfirm --windowed --onefile --icon="images/BEST_App_Logo.ico" main.py --add-data "images;images" --add-data "utils;utils" --add-data "pages;pages" --collect-submodules PyQt6
 
 ```
 
