@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Page1_AssessmentType</class>
+ <widget class="QWidget" name="Page1_AssessmentType">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1261</width>
+    <height>699</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Maximum" vsizetype="Fixed">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QLabel" name="cement_decor">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>-30</y>
+     <width>171</width>
+     <height>761</height>
+    </rect>
+   </property>
+   <property name="midLineWidth">
+    <number>0</number>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>../images/BEST_side_abstract.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>false</bool>
+   </property>
+   <property name="indent">
+    <number>0</number>
+   </property>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>650</y>
+     <width>1051</width>
+     <height>35</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="button_layout">
+    <item>
+     <spacer name="horizontalSpacer">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>40</width>
+        <height>20</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item>
+     <widget class="QPushButton" name="saveBtn">
+      <property name="text">
+       <string>Save Progress</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="nextBtn">
+      <property name="font">
+       <font>
+        <kerning>true</kerning>
+       </font>
+      </property>
+      <property name="text">
+       <string>Next</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QGroupBox" name="assessment_group">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>50</y>
+     <width>1001</width>
+     <height>431</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    background-color: #26481f;  /* Green */
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    font-size: 14px;
+    border-radius: 6px;
+    min-width: 90px;
+    min-height: 15px;
+
+}
+
+QPushButton:hover {
+    background-color: #45a049;
+}
+
+QPushButton:pressed {
+    background-color: #3e8e41;
+}
+
+QPushButton#saveBtn {
+                background-color: white;
+                color: #26481f;
+            }
+QPushButton#saveBtn:hover {
+                background-color: #45a049;
+			  color: white;
+            }
+
+    QLineEdit {
+        border-radius: 10px;    
+        padding: 5px;           
+    }
+
+myLineEdit-&gt;setFixedSize(200, 30)</string>
+   </property>
+   <property name="title">
+    <string/>
+   </property>
+   <widget class="QLabel" name="summary_label">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>0</y>
+      <width>911</width>
+      <height>311</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt; font-weight:700;&quot;&gt;Detailed Assessment vs. Quick Assessment&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;This tool offers two options for evaluating energy and production data: a &lt;/span&gt;&lt;span style=&quot; font-size:10pt; font-weight:700;&quot;&gt;Detailed Assessment&lt;/span&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt; or a &lt;/span&gt;&lt;span style=&quot; font-size:10pt; font-weight:700;&quot;&gt;Quick Assessment&lt;/span&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;The &lt;/span&gt;&lt;span style=&quot; font-size:10pt; font-weight:700;&quot;&gt;Detailed Assessment &lt;/span&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;requires comprehensive data for each stage of the cement production process. Users must enter production and energy information for raw material handling, preparation (including pre-blending, crushing, and grinding), additive preparation and drying, fuel preparation, homogenization, and kiln systems (preheater, precalciner, kiln, and clinker cooler). Cement grinding data can also be specified, along with any available information on auxiliary operations such as conveying, lighting, office equipment, and other miscellaneous electricity uses. This approach allows for &lt;/span&gt;&lt;span style=&quot; font-size:10pt; font-weight:700;&quot;&gt;precise, stage-by-stage comparisons&lt;/span&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;, making the results &lt;/span&gt;&lt;span style=&quot; font-size:10pt; font-weight:700;&quot;&gt;more robust and useful for detailed analysis&lt;/span&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;The &lt;/span&gt;&lt;span style=&quot; font-size:10pt; font-weight:700;&quot;&gt;Quick Assessment&lt;/span&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;, by contrast, focuses on simplicity. It requires only total energy use at the facility, divided by electricity and fuel type, along with production data for each process step. This method &lt;/span&gt;&lt;span style=&quot; font-size:10pt; font-weight:700;&quot;&gt;minimizes the amount of data required&lt;/span&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt; and &lt;/span&gt;&lt;span style=&quot; font-size:10pt; font-weight:700;&quot;&gt;speeds up &lt;/span&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;the assessment process, but the &lt;/span&gt;&lt;span style=&quot; font-size:10pt; font-weight:700;&quot;&gt;results are limited and less comprehensive&lt;/span&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;In short, the &lt;/span&gt;&lt;span style=&quot; font-size:10pt; font-weight:700;&quot;&gt;Detailed Assessment&lt;/span&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt; is ideal when in-depth, reliable comparisons are needed, while the &lt;/span&gt;&lt;span style=&quot; font-size:10pt; font-weight:700;&quot;&gt;Quick Assessment&lt;/span&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt; provides a faster, less data-intensive overview.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="wordWrap">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="select_label">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>360</y>
+      <width>501</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;Select the &lt;/span&gt;&lt;span style=&quot; font-size:10pt; font-weight:700;&quot;&gt;assessment type &lt;/span&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;you would prefer and then press Next:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox_assessment_type">
+    <property name="geometry">
+     <rect>
+      <x>640</x>
+      <y>360</y>
+      <width>250</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>250</width>
+      <height>0</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>250</width>
+      <height>16777215</height>
+     </size>
+    </property>
+    <item>
+     <property name="text">
+      <string>Select Assessment Type</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Detailed Assessment</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Quick Assessment</string>
+     </property>
+    </item>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
