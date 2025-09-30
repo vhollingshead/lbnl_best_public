@@ -1,6 +1,6 @@
 altgraph==0.17.4
-asttokens==3.0.0
-attrs==25.3.0
+asttokens==3.0.
+commattrs==25.3.0
 charset-normalizer==3.4.2
 et_xmlfile==2.0.0
 exceptiongroup==1.3.0
