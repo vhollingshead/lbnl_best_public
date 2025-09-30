@@ -1,0 +1,8 @@
+<RCC>
+  <qresource prefix="/">
+    <file>images/BEST_landing_abstract.png</file>
+    <file>images/BEST_side_abstract.png</file>
+    <file>images/BEST_App_Logo.ico</file>
+    <file>images/BEST_App_Logo.icns</file>
+  </qresource>
+</RCC>

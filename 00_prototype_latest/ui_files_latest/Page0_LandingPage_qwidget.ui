@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>LandingPage</class>
+ <widget class="QWidget" name="LandingPage">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1260</width>
+    <height>700</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QPushButton {
+    background-color: white; 
+    color: #00313c;
+    border: none;
+    padding-top: 11px;           /* Add vertical padding */
+    padding-bottom: 8px;        /* Match top */
+    padding-left: 16px;
+    padding-right: 16px;
+    font-size: 17px;      
+    text-align: center;
+    border-radius: 16px;
+    min-width: 100px;
+    min-height: 20px;
+
+}
+
+QPushButton:hover {
+    background-color: rgb(232, 232, 232);
+}
+
+QPushButton:pressed {
+    background-color: #4aac4e;
+    color: white;
+}
+
+QPushButton#resumeBtn {
+                background-color: white;
+                color: #00313c;
+            }
+QPushButton#resumeBtn:hover {
+                background-color: #007681;
+			  color: white;
+            }
+
+    QLineEdit {
+        border-radius: 10px;    
+        padding: 5px;           
+    }
+
+myLineEdit-&gt;setFixedSize(200, 30)</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1260</width>
+     <height>700</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>../images/BEST_landing_abstract.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QWidget" name="gridLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>530</y>
+     <width>731</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="3">
+     <widget class="QPushButton" name="get_started">
+      <property name="font">
+       <font>
+        <family>ITC Franklin Gothic LT Pro</family>
+        <pointsize>-1</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton#get_started {
+        background-color: #00313c;  /* Dark Blue */
+        color: white;
+    }
+
+QPushButton#get_started:hover {
+        background-color: #45a049;
+        color: white;
+    }
+
+QPushButton#get_started:pressed {
+        background-color: #3e8e41;
+    }</string>
+      </property>
+      <property name="text">
+       <string>Get Started</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="2">
+     <spacer name="horizontalSpacer">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <property name="sizeType">
+       <enum>QSizePolicy::Fixed</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>120</width>
+        <height>20</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item row="0" column="1">
+     <widget class="QPushButton" name="resumeBtn">
+      <property name="font">
+       <font>
+        <family>ITC Franklin Gothic LT Pro</family>
+        <pointsize>-1</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <property name="text">
+       <string>Resume</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="4">
+     <spacer name="horizontalSpacer_2">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <property name="sizeType">
+       <enum>QSizePolicy::Fixed</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>50</width>
+        <height>20</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item row="0" column="0">
+     <spacer name="horizontalSpacer_3">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <property name="sizeType">
+       <enum>QSizePolicy::Fixed</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>50</width>
+        <height>20</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
